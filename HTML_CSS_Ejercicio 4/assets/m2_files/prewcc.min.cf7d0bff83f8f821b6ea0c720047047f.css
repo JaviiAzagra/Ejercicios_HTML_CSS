@@ -1,0 +1,34 @@
+.cmp-title__link{font-size:inherit;line-height:inherit;margin:0}
+.cmp-title__text .cmp-title__link,.cmp-title__text .cmp-title__link:hover{color:#1c69d4}
+.cmp-text dl,.cmp-text ol,.cmp-text p,.cmp-text ul{font-family:inherit;font-size:inherit;font-weight:inherit;line-height:inherit}
+.cmp-teaser__content blockquote,.cmp-teaser__content dl,.cmp-teaser__content ol,.cmp-teaser__content p,.cmp-teaser__content ul{font-family:inherit}
+.cmp-teaser__title a,.cmp-teaser__title a:link,.cmp-teaser__title a:visited{color:inherit}
+.cmp-teaser__title a:focus,.cmp-teaser__title a:hover{color:#1c69d4}
+.cmp-teaser__link{margin:auto}
+.cmp-teaser__link,.cmp-teaser__link:focus,.cmp-teaser__link:hover{font-weight:inherit !important}
+.cmp-modelselection .ds2-tooltip{display:flex;margin-bottom:0;z-index:30}
+.cmp-modelselection .ds2-tooltip.cmp-modelselection__detail-view--selected{box-shadow:none}
+.cmp-modelselection .ds2-tooltip.cmp-modelselection__detail-view--selected span:after{box-shadow:0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4;opacity:1}
+.cmp-modelselection .tooltip--locked,.cmp-modelselection .tooltip--locked .ds2-info-icon{pointer-events:none}
+.cmp-modelselection .ds2-icon--info-i-white:before{background-color:initial}
+.cmp-modelselection span:before{border-color:#262626}
+.cmp-download__title a,.cmp-download__title a:link,.cmp-download__title a:visited{color:inherit}
+.cmp-download__title a:hover{color:#0653b6}
+.cmp-download__title a:focus{color:#1c69d4}
+.cmp-download__description dl,.cmp-download__description ol,.cmp-download__description p,.cmp-download__description ul,.cmp-download__property-content{font-family:bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;font-weight:300}
+.cmp-download__action,.cmp-download__title-link{margin:0}
+.cmp-contenttable[class*=column]+[class*=column]:last-child{float:none}
+.cmp-contenttable__row{border:initial}
+.cmp-contenttable__caption,.cmp-contenttable__cell{color:inherit;font-weight:inherit;vertical-align:initial}
+.cmp-contenttable__cell{margin:initial}
+.cmp-contenttable__caption{text-align:initial}
+.cmp-contentfragment blockquote,.cmp-contentfragment dl,.cmp-contentfragment ol,.cmp-contentfragment p,.cmp-contentfragment ul{font-family:bmwTypeNextWeb,Arial,Helvetica,Roboto,sans-serif;font-size:inherit;font-weight:300;line-height:inherit}
+.cmp-contentfragment dl dd{margin:0}
+.cmp-button,.style-button--as-link.button,.style-button--nba-dark.button,.style-button--outline-dark.button,.style-button--outline-on-image.button,.style-button--primary-button.button{background-color:initial;border:initial;color:initial;display:block;height:auto;margin:0;min-width:0;padding:0;text-align:initial;transition:none}
+.style-button--as-link .cmp-button,.style-button--as-link.button{align-items:center;display:inline-flex}
+.style-button--as-link .cmp-button:focus,.style-button--as-link .cmp-button:hover,.style-button--as-link.button:focus,.style-button--as-link.button:hover{background-color:initial}
+.style-button--as-link-list .button{background-color:initial;border:initial;color:initial;display:block;height:auto;margin:0;min-width:0;padding:0;text-align:initial;transition:none;width:100%}
+.cmp-accordion__title{color:currentColor}
+.cmp-accordion__button{color:#262626;font-weight:400;margin:0}
+.cmp-accordion__button,.cmp-accordion__button:focus,.cmp-accordion__button:hover{background-color:initial}
+.cmp-accordion__button:hover{color:#262626}

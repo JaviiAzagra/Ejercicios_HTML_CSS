@@ -1,0 +1,15 @@
+.epaas-notavailable-banner{display:none;box-sizing:border-box;flex-direction:column;position:fixed;bottom:0;left:0;right:0;max-height:31.8vh;padding:15px 10% 30px;overflow:auto;background-color:white;z-index:2147483650;box-shadow:0 -1px 8px 0 rgba(0,0,0,0.5)}
+@media(max-width:480px),(max-height:480px){.epaas-notavailable-banner{max-height:calc(100% - 60px);padding:20px 20px 30px 20px}
+}
+.epaas-notavailable-banner .header{display:flex;flex-direction:row;flex:0 0 auto;position:relative;margin-left:5px}
+@media(max-width:480px),(max-height:480px){.epaas-notavailable-banner .header{flex-direction:column-reverse;align-items:flex-end}
+}
+.epaas-notavailable-banner .header .headline{flex-basis:auto;width:100%;margin:0 0 20px}
+@media(max-width:480px),(max-height:480px){.epaas-notavailable-banner .header .headline{margin:0 0 20px}
+}
+.epaas-notavailable-banner .header .close-button{cursor:pointer;position:relative;width:20px;height:20px;flex:0 0 20px}
+.epaas-notavailable-banner .header .close-button:hover::before{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2220%22%20width%3D%2220%22%20viewBox%3D%2232.5%2032.5%2037%2037%22%3E%3Cpath%20transform%3D%22scale%280.1%2C-0.1%29%20translate%280%2C-960%29%22%20fill%3D%22%234D4D4D%22%20d%3D%22M634.88%20611.84l-122.88-122.88-122.88%20122.88-40.96-40.96%20122.88-122.88-122.88-122.88%2040.96-40.96%20122.88%20122.88%20122.88-122.88%2040.96%2040.96-122.88%20122.88%20122.88%20122.88z%22%2F%3E%3C%2Fsvg%3E");cursor:pointer}
+.epaas-notavailable-banner .header .close-button::before{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2220%22%20width%3D%2220%22%20viewBox%3D%2232.5%2032.5%2037%2037%22%3E%3Cpath%20transform%3D%22scale%280.1%2C-0.1%29%20translate%280%2C-960%29%22%20fill%3D%22%23262626%22%20d%3D%22M634.88%20611.84l-122.88-122.88-122.88%20122.88-40.96-40.96%20122.88-122.88-122.88-122.88%2040.96-40.96%20122.88%20122.88%20122.88-122.88%2040.96%2040.96-122.88%20122.88%20122.88%20122.88z%22%2F%3E%3C%2Fsvg%3E");background-repeat:no-repeat;background-size:cover;content:' ';position:absolute;width:20px;height:20px;left:0;top:0}
+.epaas-notavailable-banner .content{flex:1 1 auto;overflow-y:auto;overflow-x:hidden;-ms-overflow-x:hidden;min-height:0;padding-left:5px}
+.epaas-notavailable-banner .content p{margin:0}
+.show-banner{display:flex}
