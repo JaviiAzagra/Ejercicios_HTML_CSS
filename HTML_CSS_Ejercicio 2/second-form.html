@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2- Segundo Formulario</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header class="header">
+        <!-- <img src="/assets/mailchimplogo.png" alt="logo" width="300" height="275"> -->
+    </header>
+    <img class="logo" src="/assets/mailchimplogo.png" alt="logo" width="300" height="275">
+    <div class="form">
+        <form action="/first-form.html" method="get">
+                <h1>Bienvenido a Mailchimp</h1>
+                <p>Encuentra a tu gente. Involucre a sus clientes. Construye tu marca. Hazlo todo con la plataforma de marketing de Mailchimps. ¿Ya tienes una cuenta? <a href=""">Log in</a></p>
+                <label>
+                    <p><strong>Email</strong></p>
+                    <input class="box" type="email" name="mail" required>
+                </label>
+                <label>
+                    <p><strong>Número de telefono</strong></p>
+                    <input class="box" type="tel" name="movil" required maxlength="9">
+                </label>
+                <label>
+                    <p><strong>Username</strong></p>
+                    <input class="box" type="text" name="user" required maxlength="20">
+                </label>
+                <label>
+                    <p><strong>Password</strong></p>
+                    <input class="box" type="password" name="key" required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$" oninvalid="this.setCustomValidity('Mínimo ocho caracteres, al menos una letra mayúscula, una letra minúscula, un número y un carácter especial:')">
+                </label>
+                <div class="requisitos">
+                    <p></br></p>
+                    <li>Una minuscula</li>
+                    <li>Una mayuscula</li>
+                    <li>Un número</li>
+                    <li>Un caracter especial</li>
+                    <li>8 caracteres como mínimo</li>
+                </div>
+                <div class="foot">
+                    <label>
+                        <div class="terms">
+                            <p></p><br></p>
+                            <input class="check" type="checkbox" id="cbox1"  required> 
+                            No quiero recibir correos electrónicos sobre noticias, productos de Mailchimp u ofertas especiales.
+                        </div>
+                    </label>
+                    <label>
+                        <p></p><br></p>
+                        <input class="submit" type="submit" value="Sign Up">
+                        <p>Al hacer clic en el botón "Sign Up", está creando una cuenta Mailchimp y aceptando los <strong>Terminos de Uso</strong> y la <strong>Política de Privacidad</strong></p>
+                    </label>
+                </div>
+        </form>
+    </div>
+</body>
+</html>

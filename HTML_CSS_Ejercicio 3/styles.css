@@ -1,0 +1,100 @@
+html{
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+    background-color: black;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -80px;
+}
+
+
+
+.titulo{
+    margin-top: 55px;
+}
+
+.main_box{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.busqueda{
+    margin-top: 15px;
+}
+
+.user{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.carro{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.product{
+    text-align: center;
+}
+
+.nav{
+    text-align: center;
+}
+
+.lista{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+.texto-titulo{
+    font-size: 7px;
+}
+
+.filters{
+    margin-top: 20px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.box{
+    width: 500px;
+}
+
+.container_footer{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.line {
+    border-top: 1px solid rgb(216, 216, 216);
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    margin-bottom: -80px;
+  }

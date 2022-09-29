@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2- Primer Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="/assets/logoissuu.png" alt="logo" width="180" height="50">
+        <p class="pheader">Already a user? <a href=""> Sign In</a></p>
+    </header>
+
+    <div>
+        <form action="/second-form.html" method="get">
+                <h1>Create an Issuu Account</h1>
+                <a title="logogit" href="https://github.com/login" target="_blank"><img src="/assets/github.png" alt="logogit" width="200" height="40" /></a>
+                <a title="logogit" href="https://accounts.google.com/signin"target="_blank"><img src="/assets/google.png" alt="logogoogle" width="200" height="40" /></a>
+                <p>or with email</p>
+                <label>
+                    <p><strong>Email</strong></p>
+                    <input class="box" type="email" name="mail" placeholder="e.g javi@email.com" required>
+                </label>
+                <label>
+                    <p><strong>Password</strong></p>
+                    <input 
+                    class ="box" 
+                    type="password" 
+                    name="key" 
+                    placeholder="contraseña" 
+                    required 
+                    pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" 
+                    oninvalid="this.setCustomValidity('Mínimo ocho caracteres, al menos una letra y un número:')">
+                </label>
+                <label>
+                    <p><strong>Bootcamp</strong></p>
+                    <select name="bootcamp" class="box">
+                        <option hidden>Elige que bootcamp deseas</option>  
+                        <option>Full Stack Developer Full Time </option>  
+                        <option>Full Stack Developer Part Time</option>  
+                    </select>
+                </label>
+                <div>
+                    <label>
+                        <p></p><br></p>
+                        <input type="checkbox" id="cbox1" value="first_checkbox" required> I accept the <a href="">Terms of Service</a> and the <a href="">Professional Terms of Service</a>
+                    </label>
+                    <label>
+                        <p></p><br></p>
+                        <input class="createacc" type="submit" value="Create Account">
+                    </label>
+                </div>
+        </form>
+    </div>
+</body>
+</html>

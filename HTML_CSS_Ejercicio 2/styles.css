@@ -1,0 +1,45 @@
+/* input:valid {
+    border-color: lightgreen;
+  }
+  
+  input:invalid {
+    border-color: red;
+  }  */
+
+  header{
+    background-color: whitesmoke;
+
+  }
+
+  .pheader{
+    float: right;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+
+  form{
+    margin-left: 200px;
+  }
+
+  .box{
+    width: 300px;
+    height: 30px;
+  }
+
+  .createacc {
+    background-color: white;
+    border-style: dashed;
+    border-color: grey;
+    border-radius: 26px;
+    font-size: 20px;
+    color: grey;
+    width: 200px;
+    height: 50px;
+  }
