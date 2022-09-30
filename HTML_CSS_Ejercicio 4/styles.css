@@ -3,11 +3,11 @@
 }
 
 header{
-    background-image: url(./assets/headerimg.jpg);
+    background-image: url(./assets/headerimg3.jpg);
     background-repeat: no-repeat;
-    background-size: 160rem;
+    background-size: cover;
     height: 900px;
-    margin: 0;
+    margin: 03
 }
 
 .container{
@@ -43,7 +43,7 @@ header{
 
 .logoimg{
     width: 60px;
-    height: 80px;
+    height: 60px;
     margin-top: 10px;
     margin-left: 60px;
 }
@@ -51,19 +51,19 @@ header{
 .line {
     border-top: 1px solid rgb(216, 216, 216);
     width: 1670px;
-    height: 2px;
+    height: 1px;
     padding: 0;
     margin: 20px auto 0 auto;
     margin-bottom: -80px;
-    margin-top: 0px;
+    margin-top: 10px;
   }
 
 .titulo{
-    margin-top: 600px;
+    margin-top: 500px;
     margin-left: 50px;
     color: white;
     font-size: 30px;
-    line-height: 0.5;
+    line-height: 1;
 }
 
 input{
@@ -117,7 +117,6 @@ input{
     margin-left: 200px;
   }
 
-
 .main-box{
     width: 90%;
     max-width: 1200px;
@@ -131,6 +130,7 @@ input{
     margin-left: 40px;
     line-height: 0.5;
   }
+
 
   .menu-car{
     margin-top: 40px;
@@ -171,6 +171,20 @@ input{
     background-color: whitesmoke;
     margin-right: 40px;
     height: 120px;
+}
+
+.box p{
+    display: flex;
+    align-items: center;
+}
+
+.notices2{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
 }
 
 footer{
