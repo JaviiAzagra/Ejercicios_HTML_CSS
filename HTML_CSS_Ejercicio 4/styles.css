@@ -5,9 +5,10 @@
 header{
     background-image: url(./assets/headerimg3.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     height: 900px;
-    margin: 03
+    margin: 0;
 }
 
 .container{
@@ -118,7 +119,7 @@ input{
   }
 
 .main-box{
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
     display: flex;
