@@ -151,7 +151,7 @@ input{
     max-width: 1200px;
     margin: auto;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: 150px;
 }
 
@@ -165,18 +165,15 @@ input{
 
 .box{
     width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     background-color: whitesmoke;
-    margin-right: 40px;
+    margin-right: 50px;
     height: 120px;
 }
 
 .box p{
-    display: flex;
-    align-items: center;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .notices2{
@@ -184,6 +181,7 @@ input{
     max-width: 1200px;
     margin: auto;
     display: flex;
+    align-content: center;
     justify-content: center;
     margin-top: 150px;
 }
@@ -191,7 +189,7 @@ input{
 footer{
     background-color: whitesmoke;
     margin-top: 100px;
-    height: 400px;
+    height: 500px;
 
 }
 
@@ -200,7 +198,7 @@ footer{
     max-width: 1200px;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 150px;
     font-weight: 700;
 }
@@ -210,3 +208,11 @@ footer p{
     font-size: 14px;
 }
 
+.line3 {
+    border-top: 1px solid rgb(216, 216, 216);
+    width: 1000px;
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    text-align: center;
+  } 
